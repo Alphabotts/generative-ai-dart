@@ -32,7 +32,7 @@ jobs:
           - sdk: stable
             check-formatting: true
     steps:
-      - uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b
+      - uses: actions/checkout@d632683dd7b4114ad314bca15554477dd762a938
       - uses: dart-lang/setup-dart@f0ead981b4d9a35b37f30d36160575d60931ec30
         with:
           sdk: ${{ matrix.sdk }}
